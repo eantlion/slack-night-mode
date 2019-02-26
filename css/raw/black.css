@@ -408,11 +408,13 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 #threads_msgs .inline_message_input_container.with_file_upload, 
 #reply_container.upload_in_threads .inline_message_input_container, 
 #reply_container.upload_in_threads .inline_message_input_container.with_file_upload 
-{ background: #545454 !important; border-color: #363636 !important; color: #e6e6e6 !important; }
+{ background: #545454 !important; border-color: #363636 !important; color: #00ced1 !important; }
 
-.inline_message_input_container .ql-container { background: #545454 !important; border-color: #545454 !important; color: #e6e6e6 !important; }
+.inline_message_input_container .ql-container { background: #545454 !important; border-color: #545454 !important; color: #00ced1 !important; }
 
-.inline_message_input_container .ql-container.focus, .inline_message_input_container .ql-container:active, .inline_message_input_container .ql-container:hover { border-color: #828282; }
+.inline_message_input_container .ql-container.focus, 
+.inline_message_input_container .ql-container:active, 
+.inline_message_input_container .ql-container:hover { border-color: #828282; }
 
 .c-message--editing { background: #363636; border-color: #363636; color: #e6e6e6; }
 
